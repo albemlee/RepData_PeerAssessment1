@@ -178,15 +178,8 @@ png(filename = "lineplot2.png")
 par(mfrow = c(2,1))
   plot(plotvalues2$interval,plotvalues2$steps, type="l", main="weekday", xlab="interval",
      ylab="steps")
-  glot(plotvalues3$interval,plotvalues3$steps, type="l", main="weekend", xlab="interval",
+  plot(plotvalues3$interval,plotvalues3$steps, type="l", main="weekend", xlab="interval",
      ylab="steps")
-```
-
-```
-## Error: could not find function "glot"
-```
-
-```r
 dev.off()
 ```
 

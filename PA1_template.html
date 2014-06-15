@@ -333,14 +333,9 @@ png(filename = &quot;lineplot2.png&quot;)
 par(mfrow = c(2,1))
   plot(plotvalues2$interval,plotvalues2$steps, type=&quot;l&quot;, main=&quot;weekday&quot;, xlab=&quot;interval&quot;,
      ylab=&quot;steps&quot;)
-  glot(plotvalues3$interval,plotvalues3$steps, type=&quot;l&quot;, main=&quot;weekend&quot;, xlab=&quot;interval&quot;,
+  plot(plotvalues3$interval,plotvalues3$steps, type=&quot;l&quot;, main=&quot;weekend&quot;, xlab=&quot;interval&quot;,
      ylab=&quot;steps&quot;)
-</code></pre>
-
-<pre><code>## Error: could not find function &quot;glot&quot;
-</code></pre>
-
-<pre><code class="r">dev.off()
+dev.off()
 </code></pre>
 
 <pre><code>## pdf 
